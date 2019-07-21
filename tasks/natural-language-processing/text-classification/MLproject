@@ -1,0 +1,8 @@
+name: profession_classifier
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+    command: "python profession_classifier.py"
